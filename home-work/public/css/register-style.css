@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #212529;
+}
+.box
+{
+    min-width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #212529;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0 0 10px 5px #3498db;
+}
+.input-style
+{
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box h1 a
+{
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.input-style:focus
+{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+.box input[type="submit"]:hover
+{
+    background: #3498db;
+    color: #3498db;
+}
+.input-a
+{
+    text-decoration-line: none;
+    color: #3498db;
+}
+.input-a:hover
+{
+    color: #2ecc71;
+}
+.signup-colon
+{
+    display: flex;
+
+}
+.signup-colon label
+{
+    color: #3498db;
+}
+.errorblock
+{
+    background: rgba(255, 0, 0, 0.2);
+    border: 2px solid #ff0062;
+    color: white;
+    border-radius: 15px;
+}
+.errorblock ul
+{
+    list-style: none;
+}

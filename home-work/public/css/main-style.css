@@ -1,0 +1,260 @@
+.box
+{
+    min-width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #212529;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0 0 10px 5px #3498db;
+}
+.input-style
+{
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box h1 a
+{
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.input-style:focus
+{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+.box input[type="submit"]:hover
+{
+    background: #3498db;
+    color: #3498db;
+}
+.input-a
+{
+    text-decoration-line: none;
+    color: #3498db;
+}
+.input-a:hover
+{
+    color: #2ecc71;
+}
+.signup-colon
+{
+    display: flex;
+
+}
+.signup-colon label
+{
+    color: #3498db;
+}
+.errorblock
+{
+    background: rgba(255, 0, 0, 0.2);
+    border: 2px solid #ff0062;
+    color: white;
+    border-radius: 15px;
+}
+.errorblock ul
+{
+    list-style: none;
+}
+
+
+
+
+body
+{
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1em;
+    background: #212529;
+    color: white;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.menu
+{
+    display: flex;
+    list-style: none;
+
+}
+.menu li
+{
+    margin-left: 30px;
+}
+.menu li button
+{
+    background: none;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+    color: #2ecc71;
+    transition: 0.25s;
+    width: 100px;
+    height: 35px;
+}
+.menu li button:hover
+{
+    color: #212529;
+    background: #2ecc71;
+    width: 125px;
+}
+.conteiner
+{
+    margin: auto 20px;
+    align-content: center;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.contact
+{
+    display: flex;
+    list-style: none;
+}
+.contact li
+{
+    margin-left: 70px;
+}
+.profil-header
+{
+    min-height: 200px;
+}
+.fio
+{
+
+    line-height: 1em;
+}
+.setting-box
+{
+    min-width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #212529;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0 0 5px 2px #3498db;
+    display: none;
+}
+.setting-box a
+{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.setting-btn:hover
+{
+    color: #2ecc71;
+}
+.leave-btn:hover
+{
+    color: #e01c4a;
+}
+.set-btn:hover
+{
+    color: #3498db;
+}
+.leave-btn_yes
+{
+    width: 100px;
+    height: 50px;
+    background: none;
+    color: #2ecc71;
+    border-radius: 24px;
+    border: 2px solid #2ecc71;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.leave-btn_yes:hover
+{
+    color: #e01c4a;
+    border: 2px solid #e01c4a;
+}
+.leave-btn_no:hover
+{
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+.set-box section
+{
+    display: flex;
+}
+.set-box button
+{
+    background: none;
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    color: #3498db;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.35s;
+}
+.set-box button:hover
+{
+    color: #2ecc71;
+    width: 150px;
+}
+.set-confirm
+{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.set-confirm input
+{
+    display: block;
+}
+.set-confirm button
+{
+    display: block;
+}
+.set-hr_confirm
+{
+    margin-top: 30px;
+}
+.first_set-btn
+{
+    display: block;
+}
+.main-logo
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(0, 255, 158, 0.49);
+    border-radius: 24px;
+}
